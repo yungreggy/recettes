@@ -23,25 +23,25 @@ Application de recettes de cuisine
 ## 3. Implémentation
 ### 3.1 Développement Backend
 - **Tâches Create/Show (Fernanda)**: Implémentation des fonctionnalités pour ajouter et afficher les recettes.
-- **Estimation de Temps**: 4 jours.
+- **Estimation de Temps**: ?.
 - **Tâches Update/Delete (Alexandre)**: Implémentation des fonctionnalités pour mettre à jour et supprimer les recettes.
 - **Estimation de Temps**: .
 
 ### 3.2 Développement Frontend
 - **Tâches Index et Form Update (Anis)**: Développement de la page d'accueil et du formulaire de mise à jour des recettes.
-- **Estimation de Temps**: 5 jours.
+- **Estimation de Temps**: ?.
 - **Tâches Create/Show (David)**: Intégration des maquettes pour les fonctionnalités de création et d'affichage des recettes.
 - **Estimation de Temps**: .
 
 ## 4. Test
 - **Tâches**: Test de toutes les fonctionnalités (unitaires, intégration, interface utilisateur).
 - **Responsables**: Toute l'équipe.
-- **Estimation de Temps**: .
+- **Estimation de Temps**: ? .
 
 ## 5. Déploiement
 - **Tâches**: Mise en ligne de l'application, configuration de l'environnement de production.
 - **Responsables**: Alexandre (avec le support de Fernanda pour les aspects techniques liés à la base de données).
-- **Estimation de Temps**: .
+- **Estimation de Temps**:  .
 
 ## 6. Documentation
 - **Tâches**: Rédaction de la documentation technique et utilisateur.
