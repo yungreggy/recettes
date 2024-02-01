@@ -12,7 +12,7 @@ Application de recettes de cuisine
 ## 2. Conception
 ### 2.1 Conception de la Base de Données
 - **Tâches**: Planification de la structure de la base de données (tables, relations).
-- **Responsables**: Fernanda et Greggy.
+- **Responsables**: Fernanda et Alexandre.
 - **Estimation de Temps**: 30 minutes.
 
 ### 2.2 Conception des Maquettes
@@ -24,7 +24,7 @@ Application de recettes de cuisine
 ### 3.1 Développement Backend
 - **Tâches Create/Show (Fernanda)**: Implémentation des fonctionnalités pour ajouter et afficher les recettes.
 - **Estimation de Temps**: 4 jours.
-- **Tâches Update/Delete (Greggy)**: Implémentation des fonctionnalités pour mettre à jour et supprimer les recettes.
+- **Tâches Update/Delete (Alexandre)**: Implémentation des fonctionnalités pour mettre à jour et supprimer les recettes.
 - **Estimation de Temps**: .
 
 ### 3.2 Développement Frontend
@@ -40,7 +40,7 @@ Application de recettes de cuisine
 
 ## 5. Déploiement
 - **Tâches**: Mise en ligne de l'application, configuration de l'environnement de production.
-- **Responsables**: Greggy (avec le support de Fernanda pour les aspects techniques liés à la base de données).
+- **Responsables**: Alexandre (avec le support de Fernanda pour les aspects techniques liés à la base de données).
 - **Estimation de Temps**: .
 
 ## 6. Documentation
