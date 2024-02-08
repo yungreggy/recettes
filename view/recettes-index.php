@@ -1,5 +1,5 @@
-{{ include('header.php', {title: 'Recettes List'}) }}
-<body>
+{{ include('header.php', {title: 'Liste des recettes'}) }}
+
     {% for recette in recettes %}
     <ul>
         <li>Nom : {{ recette.nom }} - <a href="{{path}}recette/edit/{{ recette.id }}">Modifier</a></li>

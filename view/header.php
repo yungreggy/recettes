@@ -6,6 +6,9 @@
                 <title>{{ title }}</title>
                 <link rel="stylesheet" href="{{path}}css/style.css">
             </head>
+            <body>
+                
+            </body>
             <nav>
             <ul>
                 <li><a href="{{path}}recette">Liste de recettes</a></li>

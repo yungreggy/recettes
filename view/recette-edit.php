@@ -1,5 +1,5 @@
-{{ include('header.php', {title: 'Recette Edit'}) }}
-<body>
+{{ include('header.php', {title: 'Modifier une recette'}) }}
+
     <div class="container">
         <form action="{{path}}recette/update" method="post">
         <span class="text-danger">{{ errors | raw }}</span>

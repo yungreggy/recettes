@@ -20,6 +20,37 @@ class ControllerRecette extends controller {
 
     }
 
+    public function store(){
+        if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST)) {
+            $recette = new Recette();
+    
+        
+            $insertId = $recette->insert($_POST);
+    
+            RequirePage::url('recette/index');
+        } else {
+         
+            return Twig::render('recette-create.php', ['error' => 'Méthode de requête invalide ou données manquantes.']);
+        }
+    }
+
+    public function show($id){
+ 
+        $recette = new Recette();
+    
+        $selectRecette = $recette->selectId($id);
+    
+ 
+        if ($selectRecette) {
+          
+            return Twig::render('recette-show.php', ['recette' => $selectRecette]);
+        } else {
+           
+            return Twig::render('error.php', ['error' => 'Recette non trouvée.']);
+        }
+    }
+    
+    
 
     public function edit($id){
 
@@ -32,13 +63,9 @@ class ControllerRecette extends controller {
 
 
     public function destroy($id){
-        // Création d'une instance de la classe Recette
+
         $recette = new Recette;
-    
-        // Appel de la méthode delete en passant l'id de la recette à supprimer
         $delete = $recette->delete($id);
-    
-        // Redirection vers la liste des recettes après la suppression
         RequirePage::url('recette/index');
     }
     
