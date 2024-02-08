@@ -17,7 +17,7 @@ Application de recettes de cuisine
 
 ### 2.2 Conception des Maquettes
 - **Tâches**: Création des maquettes pour l'interface utilisateur.
-- **Responsables**: David.
+- **Responsables**: David. (collaborateur perdu)
 - **Estimation de Temps**: 1 heure.
 
 ## 3. Implémentation
