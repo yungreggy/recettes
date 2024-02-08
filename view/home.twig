@@ -1,18 +1,4 @@
-<?php
-
-class RequirePage {
-
-    static public function model($model){
-        return require_once('model/'.$model.'.php');
-    }
-
-    static public function library($library){
-        return require_once('library/'.$library.'.php');
-    }
-
-    static public function header($title){
-        return '
-        <!DOCTYPE html>
+<!DOCTYPE html>
             <html lang="en">
             <head>
                 <meta charset="UTF-8">
@@ -28,13 +14,10 @@ class RequirePage {
 
             </ul>
         </nav>
-        ';
-    }
-
-    static public function url($url){
-        header('location:'.PATH_DIR.$url);
-    }
-}
-
-
-?>
+    <body>
+        <div class="container">
+            <h1>Welcome to my MVC project</h1>
+            {{ name }}
+        </div>
+    </body>
+</html>
